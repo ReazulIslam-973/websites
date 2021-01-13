@@ -23715,7 +23715,7 @@ span {
 .why_chose_bg_img {
   background: linear-gradient(#0000007d,
 	#0000008f),
-	url(../images/why-choose-us1.jpg);
+	url(why-choose-us1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
