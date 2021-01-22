@@ -22,10 +22,7 @@
 								  .nav_logo{
 									  float:none;
 									  width: 100%;
-									  margin: auto;
-									  left: 116px;
-									  position: relative;
-									  padding-bottom: 0px;
+									  padding: 0px;
 									 }
 								  
 								  .nav_menu{
@@ -35,6 +32,7 @@
 									 }
 								  img{
 									  width: 100%;
+									  padding: 0px;
 									 }
 									 .menu_item{
 										 width:100%;
@@ -53,8 +51,9 @@
 										 
 										}
 									 #logo_image{
-										 width: 30%;
+										 width: 170px;
 										 margin:auto;
+										 float: none;
 										}
 									  .menu_item li a{
 										  color:  white !important;
@@ -87,7 +86,7 @@
 										   .content_wrapper{
 											   width:100%;
 											   /* overflow: hidden; */
-											   margin-left: 15px;
+											   
 											  }
 										   .slider_btn{
 											 
@@ -151,7 +150,7 @@ font-size: 14px;
 						float: none;
 						overflow: hidden;
 						overflow: hidden;
-						margin: 25px 10px;
+						 
 					}		
 
 									#work_team{
@@ -167,31 +166,31 @@ font-size: 14px;
 									}
 									.team_wrapper{
 										width:100%;
-										
+										padding: 0px;
 									}
 									.team_main{
 										width:
 										100%;
 										float:none;
-										margin:10px 5px;
-										
+										 
 									}
 										 .left_content{
 											 width:100%;
 											 float:none;
 											 margin-bottom:30px;
 											 box-shadow: none;
+											 margin: 0;
 											}
 										 
 													.right_content{
-														float:none;
-														width:100%;
-														
+														width: 80%;
+														float: left;
+														overflow: hidden;
 													}
 												
 									.right_content_details{
 										width:100%;
-										
+										overflow: hidden;
 									}
 								.right_content_list{
 									width:100%;
@@ -241,9 +240,10 @@ font-size: 14px;
 									
 								}
 								.why_chose_block1{
-									width:100%;
+									width: 98%;
 									margin: 0px;
-									padding: 34px 15px;
+									overflow: hidden;
+									float: none;
 								}
 								.fun-info{
 									width:100%;
@@ -278,15 +278,11 @@ font-size: 14px;
 								 
 							 }
 							 .about_dev_block.outer_animation{
-								 width:100%;
+								 width: 95%;
 								 float:none;
-								  margin:15px 20px;
-								  
-								 
-								 
-							 
-											  
-							 }
+								 padding: 0;
+								 margin: auto;
+								}
 							 .about_wrapper{
 								 width:100%;
 								 padding:20px  0px;
@@ -336,11 +332,10 @@ font-size: 14px;
 							 .price_plan_top_content{
 								}
 							 .price_plan_main.outer_animation{
-								 width:100%;
-								 margin-bottom:50px;
-								 
-								 
-							 }
+								 width: 100%;
+								 overflow: hidden;
+								 margin: auto;
+								}
 							 .price_plan_content_block{
 								 width:100%;
 								 margin:auto;
@@ -378,14 +373,9 @@ font-size: 14px;
 								  
 							  }
 							 .price_plan_main{
-								 width:100%;
-								 margin:auto;
-								 
-							 }
+								}
 							 .price_plan_content_block{
-								 width:100%;
-								 margin:auto;
-								 margin-bottom: 40px;
+								 padding: 0;
 								}
 							 .priceing_value h1{
 								 font-size:28px !important;
@@ -509,11 +499,12 @@ font-size: 14px;
 								 
 								.price_plan_top_content{
 									width: 95%;
-									 
+									padding: 0;
+									margin: 0;
+									margin-bottom: 50px;
 								}
 								.price_plan_details{
 									padding-top:20px;
-									padding: 15px 46px;
 									width: 90%;
 								}
 								  
@@ -523,8 +514,10 @@ font-size: 14px;
 									   
 						  
 						 .meet_our_teams_main_content.clearfix.wow.fadeInUp{
-							 width:100%;
+							 width: 97%;
 							 margin: 20px 20px;
+							 padding: 0;
+							 /* background: red; */
 							}
 								.meet_main_content_btn{
 									width:40%;
@@ -539,9 +532,9 @@ font-size: 14px;
 									
 								} 
 									.meet_content_bottom_content{
-										width:100%;
+										width: 95%;
 										margin-top:20px;
-										
+										/* margin: auto; */
 									}
 								   #meet_our_teams{
 									   padding-top:0px;
@@ -573,15 +566,15 @@ font-size: 14px;
 		width:100%;
 		
 	}	.projects_wrapper{
-		width:100%;
-		
+		width: 95%;
+		margin: auto;
 	}	.our_projects_main_content{
-		width:100%;
+		width: 100%;
 		float:none;
-		
 	}	.our_projects_block{
-		width:100%;
-		
+		width: 100%;
+		margin: 0;
+		padding: 0;
 	}	 .our_projects_content{
 		width:100%;
 		
@@ -621,9 +614,9 @@ font-size: 14px;
 						
 					}
 					.news_main_content.wow.fadeInUp.clearfix{
-						width:100%;
-						margin:20px 10px;
-						
+						width: 95%;
+						margin: auto;
+						margin-top: 30px;
 					}
 					
 					.contact_page{
@@ -647,9 +640,9 @@ font-size: 14px;
 							 }
 							 
 							 .contact_page_mail_block{
-								 width:100%;
-								 float:none
-							 }
+								 width: 93%;
+								 float:none;
+								}
 							 
 							 .contact_page_mail_block_form.btn_email{
 								 width:100% !important;
@@ -657,9 +650,8 @@ font-size: 14px;
 							 }
 							 
 							 input.btn_email{
-								 width:100% !important;
-								  
-							 }
+								 width: 69% !important;
+								}
 							 
 							 .contact_page_mail_block_form{
 								width:100% !important;
@@ -667,9 +659,8 @@ font-size: 14px;
 							 }
 							 
 							 .contact_page_main{
-								 width:100%;
-								 
-							 }
+								 width: 91%;
+								}
 							 
 							 .contact_page_mail_block_padding{
 								 width:100%;
@@ -738,9 +729,8 @@ font-size: 14px;
 					  }
 					  
 					  .footer_main_container_block{
-						  width:100%;
-						  
-					  }
+						  width: 80%;
+						 }
 					  
 					  .footer_main_container_block_widgetnav_menu{
 						  width:100%; 
@@ -845,20 +835,84 @@ font-size: 14px;
 						margin-top: 9px;
 						margin-left: 55px;
 						}
-					 
-				
-					
+					 .nav_logo_wrapper{
+						 width: 50%;
+						 margin:auto;
+						}
+						
+						.price_plan_content_block{
+							width: 90%;
+							margin:auto;
+							margin: 20px 25px;
+						}
+						
+						.price_plan_optional{
+						 width:100%;
+						 margin-left:20px;
+						 
+						 
+							
+						}
+						
+						.pricing_header,.priceing_value{
+							width: 80%;
+							transform:translateY(20px);
+							 margin-bottom:15px;
+							 
+							 
+							
+						}
+						
+						.price_btn{
+						 transform:translateY(20px);
+						 margin-bottom:50px;'
+						 
+						}
+						
+						.price_list{
+							width: 80%;
+							 
+							
+							 
+							
+						}
+						
+						.list_style_none{
+							width:80%;
+							overflow:hidden;
+							 
+							
+							
+						}
+						#fluid-section-one{
+							transform:translateY(30px);
+							
+						}
+						
+						#before_B:before{
+							display:none;
+							
+						}
+						#before_A:before{
+							display:none;
+							
+						}
+						
+						#before_C:before{
+							display:none;
+							
+						}
+						
+						body{
+							width:100%;
+							overflow:hidden;
+							margin:auto;
+							
+						}
+						
+						 
+				 
 					}
 
 
-					 
-						 
-						 
-							 
-							
-						 
-							
-					 
-						 
-							 
-							 
+	 
